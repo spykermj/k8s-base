@@ -31,7 +31,7 @@ helm install \
   cert-manager jetstack/cert-manager \
   --namespace cert-manager \
   --create-namespace \
-  --version v1.12.0 \
+  --version v1.12.2 \
   --set installCRDs=true
 
 kubectl -n cert-manager apply -f root-secret.yaml
